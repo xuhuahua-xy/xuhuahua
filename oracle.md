@@ -152,7 +152,6 @@ git commit
 		  AND
 		  deptno=( SELECT deptno FROM scott.emp WHERE ename='SCOTT')
 
-
 	分页
 		三层嵌套
 			select * 
@@ -166,3 +165,5 @@ git commit
 			where r>(page-1)*page*pageSize+1
 	
 	索引
+
+你好
