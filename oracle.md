@@ -1,4 +1,4 @@
-git
+git1
 
 git配置用户名和邮箱
 
@@ -151,7 +151,7 @@ git commit
 		  WHERE ename='SCOTT')) 
 		  AND
 		  deptno=( SELECT deptno FROM scott.emp WHERE ename='SCOTT')
-
+	
 	分页
 		三层嵌套
 			select * 
